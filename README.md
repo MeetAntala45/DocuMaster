@@ -1,4 +1,4 @@
-# 📄 DocuMaster – Document Compression and Conversion Tool
+## 📄 DocuMaster – Document Compression and Conversion Tool
 
 DocuMaster is a web-based application that provides users with a simple and reliable platform to compress and convert commonly used document formats such as PDF, images, and Word files. The application focuses on improving document handling efficiency by reducing file sizes and converting documents into the required formats.
 
@@ -31,3 +31,4 @@ Converts Word documents (.doc/.docx) into PDF format for easy sharing and better
   - Sharp (image compression and processing)  
   - PDF-lib (PDF creation and manipulation)  
   - Ghostscript (real PDF compression)  
+
