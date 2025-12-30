@@ -35,6 +35,25 @@ function Home() {
           desc="Convert Word documents into PDF format"
           link="/word-to-pdf"
         />
+        <FeatureCard
+          icon="📘"
+          title="PDF to Word"
+          desc="Convert PDF text into editable Word document"
+          link="/pdf-to-word"
+        />
+
+        <FeatureCard
+          icon="🧩"
+          title="PDF Merge"
+          desc="Combine multiple PDF files into one"
+          link="/pdf-merge"
+        />
+        <FeatureCard
+          icon="💧"
+          title="PDF Watermark"
+          desc="Add text watermark to PDF pages"
+          link="/pdf-watermark"
+        />
       </div>
     </div>
   );
