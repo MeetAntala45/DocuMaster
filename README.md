@@ -2,7 +2,7 @@
 
 DocuMaster is a web-based application that provides users with a simple and reliable platform to compress and convert commonly used document formats such as PDF, images, and Word files. The application focuses on improving document handling efficiency by reducing file sizes and converting documents into the required formats.
 
-DocuMaster is designed with a user-friendly interface that allows users to upload files, process them securely, and download the results instantly. The project simulates the workflow of real-world document processing platforms and emphasizes practical implementation and reliability.
+DocuMaster is designed with a user-friendly interface that allows users to upload files, process them securely, and download the results instantly. The project simulates the workflow of real-world document processing platforms and emphasizes practical implementation, reliability, and usability.
 
 ---
 
@@ -20,6 +20,15 @@ Merges one or more JPG or PNG images into a single PDF document.
 ### 4. Word to PDF Conversion  
 Converts Word documents (.doc/.docx) into PDF format for easy sharing and better compatibility.
 
+### 5. PDF to Word Conversion  
+Extracts text from text-based PDF documents and converts it into an editable Word (.docx) file. Complex layouts may vary.
+
+### 6. PDF Merge  
+Combines multiple PDF files into a single consolidated PDF document.
+
+### 7. PDF Watermark  
+Adds a customizable text watermark to all pages of a PDF document for security and identification purposes.
+
 ---
 
 ## 🔧 Technology Stack Used
@@ -27,8 +36,10 @@ Converts Word documents (.doc/.docx) into PDF format for easy sharing and better
 - **Frontend:** React.js, Bootstrap  
 - **Backend:** Node.js, Express.js  
 - **Libraries & Tools:**  
-  - Multer (file upload handling)  
-  - Sharp (image compression and processing)  
-  - PDF-lib (PDF creation and manipulation)  
-  - Ghostscript (real PDF compression)  
+  - Multer – file upload handling  
+  - Sharp – image compression and processing  
+  - PDF-lib – PDF creation, merging, and watermarking  
+  - pdf-parse – text extraction from PDFs  
+  - docx – Word document generation  
+  - Ghostscript – real PDF compression  
 
